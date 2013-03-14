@@ -99,6 +99,12 @@ position:relative
 #head_top_menu li{
     display: inline-block;
 }
+#head_top_menu li:befor{
+content: "";
+border-left:1px solid #cccccc;
+height: 12px;
+}
+
 .buttone{
     text-decoration: none;
     text-align: center;
