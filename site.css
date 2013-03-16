@@ -33,6 +33,9 @@ quotes: none;
 outline: 0;
 }
 ins {
+    
+    
+  
 text-decoration: none;
 }
 del {
@@ -80,32 +83,14 @@ height: 80px;
 width: 945px;
 margin:0px 26px 0px 26px;
 background:url(img/bg_header.gif);
-position:relative
-
+position:relative;
 }
-#head_top_menu {
-  float: right;
-  margin-top:8px;
-  margin-right: 44px;
-}
-#head_top_menu a{
-    text-decoration: none;
-    color:#666666;
-    font-size: 10px;   
-}
-#head_top_menu>ul{
-    text-align: right;
-}
-#head_top_menu li{
-    display: inline-block;
-}
-#head_top_menu li:befor{
-content: "";
-border-left:1px solid #cccccc;
-height: 12px;
-}
-
-.buttone{
+.logo {
+position:absolute;
+top:16px;
+left:58px;
+ }
+ .buttone{
     text-decoration: none;
     text-align: center;
     padding:4px 7px;
@@ -136,6 +121,35 @@ height: 12px;
     color: #666666;
     background: #ffffff;
 }
+#head_top_menu {
+  float: right;
+  margin-top:8px;
+  margin-right: 44px;
+}
+#head_top_menu a{
+    text-decoration: none; 
+} 
+#head_top_menu>ul{
+    text-align: right;
+}
+#head_top_menu li{
+    display: inline-block;
+}
+.common_menu a{
+color:#666666;
+font-size: 10px; 
+}
+
+#head_top_menu .head_main_menu a{
+font-size:15px; 
+color:#ffffff;   
+}
+
+
+
+
+
+
 
 /* Middle
 
