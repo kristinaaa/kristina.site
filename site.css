@@ -84,43 +84,25 @@ width: 945px;
 margin:0px 26px 0px 26px;
 background:url(img/bg_header.gif);
 position:relative;
+top:-20px;
 }
 .logo {
 position:absolute;
 top:16px;
 left:58px;
  }
- .buttone{
-    text-decoration: none;
-    text-align: center;
-    padding:4px 7px;
-    margin-left: 16px;
-    border:solid 2px #cccccc;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    font:10px Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    color: #666666;
-    background: #ffffff;
-    
-    
-}
-.buttonc{
-   text-decoration: none;
-    text-align: center;
-    padding:4px 7px;
-    margin-left:2px;
-    margin-right: 10px;
-    border:solid 2px #cccccc;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    font:10px Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    color: #666666;
-    background: #ffffff;
-}
+ .common_menu a{
+color:#666666;
+font-size: 7px;
+text-transform:uppercase;
+margin-left: 11px;
+padding-left: 11px;
+border-left: 1px solid #cccccc;
+ }
+ #head_top_menu> .common_menu>li:first-child{
+border:none; 
+ }
+
 #head_top_menu {
   float: right;
   margin-top:8px;
@@ -135,15 +117,72 @@ left:58px;
 #head_top_menu li{
     display: inline-block;
 }
+
+#head_top_menu .main_menu{
+   position: relative;
+}
+#head_top_menu .main_menu a{
+font-size:11px;
+font-weight: bold;
+color:#ffffff;
+text-transform: uppercase;
+}
+#head_top_menu .main_menu .current a,
+#head_top_menu .main_menu li:hover a{
+color: #cc9900;    
+}
+#head_top_menu>.main_menu>li{
+min-width: 110px;
+text-align: center;
+}
 .common_menu a{
 color:#666666;
-font-size: 10px; 
+font-size: 5px;
+text-transform:uppercase;
+margin-left: 22px;
+
+ }
+#head_top_menu>.main_menu>li> a{
+display: block;
+height: 100%;
+position: relative;
+top:10px;
+}
+#head_top_menu>ul,
+#head_top_menu .submenu{
+padding:0px;
+}
+#head_top_menu .submenu{
+position: absolute;
+left:0px;
+right:0px;
+bottom: -32px;
+background-color: #666666;
+display: none;
+padding: 3px 12px;
+border-radius:7px;
+box-shadow: 1px 1px 5px darkgrey;
+}
+#head_top_menu .submenu a{
+color:#333333;
+padding: 2px 14px;
 }
 
-#head_top_menu .head_main_menu a{
-font-size:15px; 
-color:#ffffff;   
+
+#head_top_menu .submenu li:hover>a,
+#head_top_menu .submenu a.current{
+color:#877691 
 }
+#head_top_menu> .main_menu li:hover>.submenu{
+    display: block;
+}
+
+
+
+
+
+
+
 
 
 
