@@ -91,25 +91,15 @@ position:absolute;
 top:16px;
 left:58px;
  }
- .common_menu a{
-color:#666666;
-font-size: 7px;
-text-transform:uppercase;
-margin-left: 11px;
-padding-left: 11px;
-border-left: 1px solid #cccccc;
- }
- #head_top_menu> .common_menu>li:first-child{
-border:none; 
- }
-
 #head_top_menu {
   float: right;
   margin-top:8px;
-  margin-right: 44px;
+  margin-right:44px;
 }
+
 #head_top_menu a{
-    text-decoration: none; 
+    text-decoration: none;
+   
 } 
 #head_top_menu>ul{
     text-align: right;
@@ -117,6 +107,60 @@ border:none;
 #head_top_menu li{
     display: inline-block;
 }
+.common_menu a {
+display:inline;
+min-width:30px;
+color:#666666;
+font-size: 7px;
+text-transform:uppercase;
+padding-right: 11px;
+padding-left: 11px;
+ }
+ 
+.buttone{
+ display: inline;
+ text-decoration:none; 
+ text-align:center;
+ text-transform: uppercase;
+  padding:2px 2px 2px 2px;
+ border:solid 1px #cccccc;
+ -webkit-border-radius:2px;
+ -moz-border-radius:2px; 
+ border-radius: 3px; 
+ font:5px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#666666; 
+ background-color:#ffffff; 
+ background-image: -moz-linear-gradient(top, #ffffff 0%,100%); 
+ background-image: -webkit-linear-gradient(top, #ffffff 0%, 100%); 
+ background-image: -o-linear-gradient(top, #ffffff 0%,100%); 
+ background-image: -ms-linear-gradient(top, #ffffff 0% ,100%); 
+ background-image: linear-gradient(top, #ffffff 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+  }
+.buttonc{
+ display: inline; 
+ text-decoration:none; 
+ text-align:center;
+ text-transform: uppercase;
+ padding:2px 2px 2px 2px;
+ border:solid 1px #cccccc; 
+ -webkit-border-radius:2px;
+ -moz-border-radius:2px; 
+ border-radius: 3px; 
+ font:5px Georgia, "Times New Roman", Times, serif; 
+ font-weight:bold; 
+ color:#666666; 
+ background-color:#ffffff; 
+ background-image: -moz-linear-gradient(top, #ffffff 0%,100%); 
+ background-image: -webkit-linear-gradient(top, #ffffff 0%, 100%); 
+ background-image: -o-linear-gradient(top, #ffffff 0%,100%); 
+ background-image: -ms-linear-gradient(top, #ffffff 0% ,100%); 
+ background-image: linear-gradient(top, #ffffff 0% ,#1982A5 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff; 
+  }
 
 #head_top_menu .main_menu{
    position: relative;
@@ -135,13 +179,7 @@ color: #cc9900;
 min-width: 110px;
 text-align: center;
 }
-.common_menu a{
-color:#666666;
-font-size: 5px;
-text-transform:uppercase;
-margin-left: 22px;
-
- }
+ 
 #head_top_menu>.main_menu>li> a{
 display: block;
 height: 100%;
@@ -175,6 +213,26 @@ color:#877691
 }
 #head_top_menu> .main_menu li:hover>.submenu{
     display: block;
+}
+#page_slogan{
+    position:absolute;
+ display: inline-block;   
+ float: left;   
+ height: 75px;
+  overflow: hidden;
+ 
+}
+#shoes_1{
+    position:absolute;
+    overflow: hidden;
+ position: relative;
+ display:inline-block;
+ height:155px;
+ width:151px;
+ 
+
+ 
+   
 }
 
 
