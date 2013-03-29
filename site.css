@@ -51,6 +51,7 @@ height: 100%;
 body {
 font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
 background:transparent
+    
 }
 a {
 color: blue;
@@ -214,58 +215,58 @@ color:#877691
 #head_top_menu> .main_menu li:hover>.submenu{
     display: block;
 }
-#page_slogan{
-    position:absolute;
- display: inline-block;   
- float: left;   
- height: 75px;
-  overflow: hidden;
- 
-}
-#shoes_1{
-    position:absolute;
-    overflow: hidden;
- position: relative;
- display:inline-block;
- height:155px;
- width:151px;
- 
-
- 
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Middle
 
 -----------------------------------------------------------------------------*/
+#main_div{
+ height: 100%;
+ /*background:#ffff00;*/
+ position: relative;
+ 
+}
+
+
 #middle {
+float: left;    
 width: 100%;
+min-height: 100%;
 padding: 0 0 85px;
-height: 1%;
-position: relative;
 }
-#middle:after {
-content: '';
-clear: both;
-display: table;
+#page_slogan{
+position:relative;
+margin: 51px 34px 85px 57px;
+ display:inline-block;  
+ float: left;   
+ height: 75px;
+ width: 380px;
+ 
+ 
 }
+#shoes_1{
+position:relative;
+bottom:150px;
+left:420px;
+display:inline;
+height:155px;
+width:151px;
+}
+
+.img_1{
+position:relative;
+left:165px;
+top:-168px;
+margin-right:5px;
+margin-bottom:6px;
+
+}
+.img_1 li{
+display: inline-block;
+}
+ 
 #container {
-width: 100%;
+width: 100%;bottom: -24px;
 float: left;
-overflow: hidden;
 }
 #content {
 padding: 0 0 0 200px;
@@ -283,6 +284,12 @@ background: #B5E3FF;
 /* Footer
 
 -----------------------------------------------------------------------------*/
+.hfooter{
+ height: 85px;
+ clear: both;
+}
+
+
 #footer {
 width: 1000px;
 margin: -85px auto 0;
